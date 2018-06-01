@@ -333,7 +333,7 @@ bot.on('message', (msg) => {
   } */
   if (mText === 'Контакты' && dialog === 'about'){
     bot.sendMessage(chatId, '+998 97 771 66 83 Бекзод Бахтиярович\n\
-+998 94 629 29 28 Дарий\n\
++998 94 629 26 28 Дарий\n\
 +998 99 830 91 18 Мохир');
   }
   else if (mText === 'На главную' && dialog === 'about'){
