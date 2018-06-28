@@ -288,7 +288,7 @@ bot.on('message', (msg) => {
         // client.close();
       }
       else if (mText == 'На главную' && results[0].position == 'remote_education_country'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
 
       //Очное образование в России
@@ -325,7 +325,7 @@ bot.on('message', (msg) => {
         // client.close();
       }
       else if (mText == 'На главную' && results[0].position == 'admission_to_the_university_country'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
 
       //Дистанционное образование в России ВУЗы mText == 'НОЧУ ВО МЭИ и МИП' && 
@@ -334,11 +334,11 @@ bot.on('message', (msg) => {
         bot.sendMediaGroup(chatId, [
           {
             type: "photo",
-            media: "AgADAgADTqkxG0DQmUkr--pHkv9Gcr-0tw4ABH8ZbVGkj8OpV3UAAgI"
+            media: "AgADAgADZqkxG3MDqEnq7vrwnwaTe7a_rA4ABM8sD94s4j8fcP0CAAEC"
           },
           {
             type: "photo",
-            media: "AgADAgADVakxG314oEmqp-7PDZ-QnkDZtw4ABO34HDXwKDbJ23cAAgI"
+            media: "AgADAgADZakxG3MDqEkBmfOF5QnctXq4tw4ABKrijU-3VJUnpH8AAgI"
           }
         ]);
       }
@@ -357,7 +357,7 @@ bot.on('message', (msg) => {
         );
       }
       else if (mText == 'На главную' && results[0].position == 'remote_education_ru'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
 
       //Дистанционное образование с Казахстаном mText == 'КИПУДН' && 
@@ -366,11 +366,11 @@ bot.on('message', (msg) => {
         bot.sendMediaGroup(chatId, [
           {
             type: "photo",
-            media: "AgADAgADUKkxG0DQmUnDvKu3OA6EX7lVqw4ABGOqpTZxgZRgKPkCAAEC"
+            media: "AgADAgADc6kxG-qwqUm_OWeHOULnvblVqw4ABGOqpTZxgZRgKPkCAAEC"
           },
           {
             type: "photo",
-            media: "AgADAgADmqoxG4YfmUm0i3EzZeTkEimxtw4ABAc0poH-agexOHQAAgI"
+            media: "AgADAgADZ6kxG3MDqEncqgmOY9wIMW0mrQ4ABLNZ2cD6s_24gAEDAAEC"
           }
         ]);
       }
@@ -389,7 +389,7 @@ bot.on('message', (msg) => {
         );
       }
       else if (mText == 'На главную' && results[0].position == 'remote_education_kz'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
 
       //написать о поступлении в ВУЗы например Россия (Гупкина, НОЧУ ВО МЭИ, НОЧУ ВО МИП) и Казахстан (смотреть в Асане)
@@ -453,7 +453,7 @@ bot.on('message', (msg) => {
         );
       }
       else if (mText == 'На главную' && results[0].position == 'admission_to_the_university_ru'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       } */
 
       //Очное образование в Казахстане mText == 'КИПУДН' && 
@@ -462,11 +462,11 @@ bot.on('message', (msg) => {
         bot.sendMediaGroup(chatId, [
           {
             type: "photo",
-            media: "AgADAgADUKkxG0DQmUnDvKu3OA6EX7lVqw4ABGOqpTZxgZRgKPkCAAEC"
+            media: "AgADAgADc6kxG-qwqUm_OWeHOULnvblVqw4ABGOqpTZxgZRgKPkCAAEC"
           },
           {
             type: "photo",
-            media: "AgADAgADmqoxG4YfmUm0i3EzZeTkEimxtw4ABAc0poH-agexOHQAAgI"
+            media: "AgADAgADZ6kxG3MDqEncqgmOY9wIMW0mrQ4ABLNZ2cD6s_24gAEDAAEC"
           }
         ]);
       }
@@ -485,7 +485,7 @@ bot.on('message', (msg) => {
         );
       }
       else if (mText == 'На главную' && results[0].position == 'admission_to_the_university_kz'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
 
       //О нас
@@ -494,7 +494,7 @@ bot.on('message', (msg) => {
 +998 97 771 66 83 Бекзод Бахтиярович');
       }
       else if (mText == 'На главную' && results[0].position == 'about'){
-        bot.sendMessage(chatId, 'Выберите пожалуйста что Вас интересует:', start);
+        bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
     });
   });
