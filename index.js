@@ -330,17 +330,6 @@ bot.on('message', (msg) => {
 
       //Дистанционное образование в России ВУЗы mText == 'НОЧУ ВО МЭИ и МИП' && 
       if (mText == 'НОЧУ ВО МЭИ и МИП' && results[0].position == 'remote_education_ru'){
-        // bot.sendPhoto(chatId, "mei_mip_1.png");
-        /* bot.sendMediaGroup(chatId, [
-          {
-            type: "photo",
-            media: "mei_mip_1.png"
-          },
-          {
-            type: "photo",
-            media: "mei_mip_2.png"
-          }
-        ]); */
         // bot.sendMessage(chatId, JSON.stringify(msg));
         bot.sendMediaGroup(chatId, [
           {
@@ -370,21 +359,11 @@ bot.on('message', (msg) => {
       else if (mText == 'На главную' && results[0].position == 'remote_education_ru'){
         bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
-      
+
       //Дистанционное образование с Казахстаном mText == 'КИПУДН' && 
       if (mText == 'КИПУДН' && results[0].position == 'remote_education_kz'){
-        bot.sendMediaGroup(chatId, [
-          {
-            type: "photo",
-            media: "https://w-dog.ru/wallpapers/10/19/436339030824247/les-reka-gory-zakat.jpg"
-          },
-          {
-            type: "photo",
-            media: "http://www.hqwallpapers.ru/wallpapers/nature/krasivyy-zakat-nad-ozerom.jpg"
-          }
-        ]);
         // bot.sendMessage(chatId, JSON.stringify(msg));
-        /* bot.sendMediaGroup(chatId, [
+        bot.sendMediaGroup(chatId, [
           {
             type: "photo",
             media: "AgADAgADc6kxG-qwqUm_OWeHOULnvblVqw4ABGOqpTZxgZRgKPkCAAEC"
@@ -393,7 +372,7 @@ bot.on('message', (msg) => {
             type: "photo",
             media: "AgADAgADZ6kxG3MDqEncqgmOY9wIMW0mrQ4ABLNZ2cD6s_24gAEDAAEC"
           }
-        ]); */
+        ]);
       }
       else if (mText == 'Назад' && results[0].position == 'remote_education_kz'){
         bot.sendMessage(chatId, 'Выберите пожалуйста страну', remote_education_country);
@@ -479,16 +458,6 @@ bot.on('message', (msg) => {
 
       //Очное образование в Казахстане mText == 'КИПУДН' && 
       if (mText == 'КИПУДН' && results[0].position == 'admission_to_the_university_kz'){
-        /* bot.sendMediaGroup(chatId, [
-          {
-            type: "photo",
-            media: "mei_mip_1.png"
-          },
-          {
-            type: "photo",
-            media: "mei_mip_2.png"
-          }
-        ]); */
         // bot.sendMessage(chatId, JSON.stringify(msg));
         bot.sendMediaGroup(chatId, [
           {
