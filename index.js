@@ -330,8 +330,18 @@ bot.on('message', (msg) => {
 
       //Дистанционное образование в России ВУЗы mText == 'НОЧУ ВО МЭИ и МИП' && 
       if (mText == 'НОЧУ ВО МЭИ и МИП' && results[0].position == 'remote_education_ru'){
-        // bot.sendMessage(chatId, JSON.stringify(msg));        
         bot.sendMediaGroup(chatId, [
+          {
+            type: "photo",
+            media: "mei_mip_1.png"
+          },
+          {
+            type: "photo",
+            media: "mei_mip_2.png"
+          }
+        ]);
+        bot.sendMessage(chatId, JSON.stringify(msg));      
+        /* bot.sendMediaGroup(chatId, [
           {
             type: "photo",
             media: "AgADAgADZqkxG3MDqEnq7vrwnwaTe7a_rA4ABM8sD94s4j8fcP0CAAEC"
@@ -340,7 +350,7 @@ bot.on('message', (msg) => {
             type: "photo",
             media: "AgADAgADZakxG3MDqEkBmfOF5QnctXq4tw4ABKrijU-3VJUnpH8AAgI"
           }
-        ]);
+        ]); */
       }
       else if (mText == 'Назад' && results[0].position == 'remote_education_ru'){
         bot.sendMessage(chatId, 'Выберите пожалуйста страну', remote_education_country);
@@ -362,8 +372,18 @@ bot.on('message', (msg) => {
 
       //Дистанционное образование с Казахстаном mText == 'КИПУДН' && 
       if (mText == 'КИПУДН' && results[0].position == 'remote_education_kz'){
-        // bot.sendMessage(chatId, JSON.stringify(msg));
         bot.sendMediaGroup(chatId, [
+          {
+            type: "photo",
+            media: "kipudn_1.jpg"
+          },
+          {
+            type: "photo",
+            media: "kipudn_2.jpg"
+          }
+        ]);
+        bot.sendMessage(chatId, JSON.stringify(msg));
+        /* bot.sendMediaGroup(chatId, [
           {
             type: "photo",
             media: "AgADAgADc6kxG-qwqUm_OWeHOULnvblVqw4ABGOqpTZxgZRgKPkCAAEC"
@@ -372,7 +392,7 @@ bot.on('message', (msg) => {
             type: "photo",
             media: "AgADAgADZ6kxG3MDqEncqgmOY9wIMW0mrQ4ABLNZ2cD6s_24gAEDAAEC"
           }
-        ]);
+        ]); */
       }
       else if (mText == 'Назад' && results[0].position == 'remote_education_kz'){
         bot.sendMessage(chatId, 'Выберите пожалуйста страну', remote_education_country);
@@ -458,8 +478,18 @@ bot.on('message', (msg) => {
 
       //Очное образование в Казахстане mText == 'КИПУДН' && 
       if (mText == 'КИПУДН' && results[0].position == 'admission_to_the_university_kz'){
-        // bot.sendMessage(chatId, JSON.stringify(msg));        
         bot.sendMediaGroup(chatId, [
+          {
+            type: "photo",
+            media: "mei_mip_1.png"
+          },
+          {
+            type: "photo",
+            media: "mei_mip_2.png"
+          }
+        ]);
+        bot.sendMessage(chatId, JSON.stringify(msg));       
+        /* bot.sendMediaGroup(chatId, [
           {
             type: "photo",
             media: "AgADAgADc6kxG-qwqUm_OWeHOULnvblVqw4ABGOqpTZxgZRgKPkCAAEC"
@@ -468,7 +498,7 @@ bot.on('message', (msg) => {
             type: "photo",
             media: "AgADAgADZ6kxG3MDqEncqgmOY9wIMW0mrQ4ABLNZ2cD6s_24gAEDAAEC"
           }
-        ]);
+        ]); */
       }
       else if (mText == 'Назад' && results[0].position == 'admission_to_the_university_kz'){
         bot.sendMessage(chatId, 'Выберите пожалуйста страну:', remote_education_country);
