@@ -370,7 +370,7 @@ bot.on('message', (msg) => {
       else if (mText == 'На главную' && results[0].position == 'remote_education_ru'){
         bot.sendMessage(chatId, 'Выберите пожалуйста, что Вас интересует:', start);
       }
-
+      
       //Дистанционное образование с Казахстаном mText == 'КИПУДН' && 
       if (mText == 'КИПУДН' && results[0].position == 'remote_education_kz'){
         bot.sendMediaGroup(chatId, [
