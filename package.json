@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mercurial": "0.0.2",
-    "node-telegram-bot-api": "^0.30.0"
+    "fs": "0.0.1-security",
+    "mongodb": "^3.0.10",
+    "node-telegram-bot-api": "^0.30.0",
+    "sys": "0.0.1"
   }
 }
