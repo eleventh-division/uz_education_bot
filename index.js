@@ -199,7 +199,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Выберите пожалуйста страну:', remote_education_country);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "remote_education_country"}}, // параметр обновления
+                { $set: {position: 'remote_education_country'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -215,7 +215,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Выберите пожалуйста страну:', admission_to_the_university_country);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "admission_to_the_university_country"}}, // параметр обновления
+                { $set: {position: 'admission_to_the_university_country'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -240,7 +240,7 @@ bot.on('message', (msg) => {
 кроме того они выдают дипломы государственного образца, которые котируются по всему миру.', about);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "about"}}, // параметр обновления
+                { $set: {position: 'about'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -259,7 +259,7 @@ bot.on('message', (msg) => {
  Экономический Институт и Московский Институт Психоанализа', remote_education_ru);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "remote_education_ru"}}, // параметр обновления
+                { $set: {position: 'remote_education_ru'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -276,7 +276,7 @@ bot.on('message', (msg) => {
 - *КИПУДН* - Казахстанский инженерно-педагогический университет Дружбы народов', remote_education_kz);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "remote_education_kz"}}, // параметр обновления
+                { $set: {position: 'remote_education_kz'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -313,7 +313,7 @@ bot.on('message', (msg) => {
 - *КИПУДН* - Казахстанский инженерно-педагогический университет Дружбы народов', admission_to_the_university_kz);
         users.findOneAndUpdate(
                 { chatId: chatId}, // критерий выборки
-                { $set: {position: "admission_to_the_university_kz"}}, // параметр обновления
+                { $set: {position: 'admission_to_the_university_kz'}}, // параметр обновления
                 function(err, result){
                   if (err){
                     bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -346,7 +346,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Выберите пожалуйста страну', remote_education_country);
         users.findOneAndUpdate(
           { chatId: chatId}, // критерий выборки
-          { $set: {position: "remote_education_country"}}, // параметр обновления
+          { $set: {position: 'remote_education_country'}}, // параметр обновления
           function(err, result){
             if (err){
               bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -378,7 +378,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Выберите пожалуйста страну', remote_education_country);
         users.findOneAndUpdate(
           { chatId: chatId}, // критерий выборки
-          { $set: {position: "remote_education_country"}}, // параметр обновления
+          { $set: {position: 'remote_education_country'}}, // параметр обновления
           function(err, result){
             if (err){
               bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
@@ -474,7 +474,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Выберите пожалуйста страну:', remote_education_country);
         users.findOneAndUpdate(
           { chatId: chatId}, // критерий выборки
-          { $set: {position: "admission_to_the_university_country"}}, // параметр обновления
+          { $set: {position: 'admission_to_the_university_country'}}, // параметр обновления
           function(err, result){
             if (err){
               bot.sendMessage(artemId, 'При перезаписи позиции произошла ошибка');
